@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GlotWrapper", "GlotWrapper\GlotWrapper.csproj", "{40F9EBDF-9C99-4276-9D4F-F92A3DECD0DF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GlotTesting", "GlotTesting\GlotTesting.csproj", "{D221FFF1-3D59-47BA-9D03-FCE5FC97005A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{40F9EBDF-9C99-4276-9D4F-F92A3DECD0DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40F9EBDF-9C99-4276-9D4F-F92A3DECD0DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40F9EBDF-9C99-4276-9D4F-F92A3DECD0DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40F9EBDF-9C99-4276-9D4F-F92A3DECD0DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D221FFF1-3D59-47BA-9D03-FCE5FC97005A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D221FFF1-3D59-47BA-9D03-FCE5FC97005A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D221FFF1-3D59-47BA-9D03-FCE5FC97005A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D221FFF1-3D59-47BA-9D03-FCE5FC97005A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
