@@ -4,6 +4,9 @@ using Glot.Models;
 
 namespace Glot
 {
+    /// <summary>
+    /// 
+    /// </summary>
     public class GlotRunner
     {
         private readonly GlotClient _client;

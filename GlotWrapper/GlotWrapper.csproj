@@ -2,6 +2,21 @@
 
     <PropertyGroup>
         <TargetFramework>netstandard2.0</TargetFramework>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <Title>Glot Wrapper</Title>
+        <Authors>Toshiro Tanazaki</Authors>
+        <Description>This is a wrapper around the api for https://glot.io</Description>
+        <Copyright>Toshiro Tanazaki</Copyright>
+        <PackageLicenseUrl>https://github.com/ToshiroZ/Glot.Net/blob/master/LICENSE</PackageLicenseUrl>
+        <RepositoryUrl>https://github.com/ToshiroZ/Glot.Net/</RepositoryUrl>
+        <SignAssembly>true</SignAssembly>
+        <AssemblyOriginatorKeyFile>SigningKey.snk</AssemblyOriginatorKeyFile>
+        <PackageVersion>1.0.1</PackageVersion>
+        <PackageReleaseNotes>I forgot to include the xml documentation oopsies</PackageReleaseNotes>
+    </PropertyGroup>
+
+    <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+      <DocumentationFile>bin\Release\GlotWrapper.xml</DocumentationFile>
     </PropertyGroup>
 
     <ItemGroup>

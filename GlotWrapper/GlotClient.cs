@@ -42,7 +42,7 @@ namespace Glot
             var json = await resp.Content.ReadAsStringAsync();
             return JsonConvert.DeserializeObject<T>(json);
         }
-        public async Task DeleteAsync(string url)
+        public new async Task DeleteAsync(string url)
         {
             var resp = await base.DeleteAsync(url);
             resp.EnsureSuccessStatusCode();
