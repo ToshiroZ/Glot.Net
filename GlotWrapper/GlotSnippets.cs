@@ -43,8 +43,7 @@ namespace Glot
             if (post is null)
                 throw new ArgumentNullException($"{nameof(post)} can not be null");
 
-            var createdPost = await _client.PostAsync<GlotPost>($"https://glot.io/api/snippets",
-                new StringContent(JsonConvert.SerializeObject(post)));
+            var createdPost = await _client.PostAsync<GlotPost>($"https://glot.io/api/snippets", post);
             return createdPost;
         }
 /// <summary>
